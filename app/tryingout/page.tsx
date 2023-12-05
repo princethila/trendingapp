@@ -6,18 +6,9 @@ import latest_records from 'data/latest_records.json';
 import StatsCard from 'components/statsCard';
 
 
-export default function Home() {
-  return (
-    // <main className="flex min-h-screen flex-col items-center p-24 font-serif">
-    //   <h1 className="text-xl text-center">Trending up! 🚀</h1>
-    //   <span className="mt-2"></span>
-    //   <p className="w-screen text-center text-sm">This list is not a full list of all instagram users. 
-    //     Should you not see a name you are interested in seeing on this list, please make a suggestion <a className="underline" href="/">here</a>.
-    //   </p>
-    //   <span className="mt-5"></span>
-    //   <TrendingTable data={latest_records} /> 
-    // </main>
-    <>
+export default function Page(){
+    return(
+        <>
             {/* <div class="py-8 px-8 my-12 mx-8 text-3xl font-bold text-center bg-white border-0">
                 Trending up 🚀
             </div> */}
@@ -38,5 +29,7 @@ export default function Home() {
             
             
         </>
-  )
+        
+        
+    )
 }

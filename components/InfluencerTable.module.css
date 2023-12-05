@@ -1,0 +1,30 @@
+.highViews {
+    color: green;
+  }
+  
+  .lowViews {
+    color: red;
+  }
+
+  .arrow {
+    margin-left: 5px; /* Adjust the margin as needed */
+  }
+
+
+  .highViewsContainer {
+    color: green;
+    display: flex; /* Use flex display to align items horizontally */
+    align-items: center; /* Center the items vertically */
+  }
+  
+  .lowViewsContainer {
+    color: red;
+    display: flex;
+    align-items: center;
+  }
+
+  .noViewsContainer {
+    color: black;
+    display: flex;
+    align-items: center;
+  }
